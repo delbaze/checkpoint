@@ -1,8 +1,10 @@
-COMMANDE POUR CONVERTIR UN FICHIER SQL VERS SQLITE : 
-cat monfichier.sql | sqlite3 database.sqlite
+## COMMANDE POUR CONVERTIR UN FICHIER SQL VERS SQLITE : 
+
+        cat monfichier.sql | sqlite3 database.sqlite
 
 
-SCHEMA : 
+## SCHEMA : 
+**DBML (Database Markup Language)** is an open-source DSL language designed to define and document database schemas and structures. It is designed to be simple, consistent and highly-readable.
 
 users {
 	id int pk
